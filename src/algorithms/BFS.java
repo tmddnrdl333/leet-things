@@ -10,8 +10,8 @@ public class BFS {
         System.out.println(bfsResult ? "SUCCESS" : "FAILED");
     }
 
-    // given the map is like below,
-    // start from (0,0), search the `1` by BFS
+    // given the map below,
+    // start from (0,0), search for the `1` by BFS
     static int[][] map = new int[][]{
             {0, 0, 0, 0},
             {0, 0, 0, 0},
@@ -19,7 +19,7 @@ public class BFS {
             {0, 0, 0, 1}
     };
 
-    // (x, y) coordinate
+    // (x, y) coordinates
     static class Node {
         int x, y;
 

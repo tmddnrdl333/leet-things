@@ -7,8 +7,8 @@ public class DFS {
         System.out.println(dfsResult ? "SUCCESS" : "FAILED");
     }
 
-    // given the map is like below,
-    // start from (0,0), search the `1` by DFS
+    // given the map below,
+    // start from (0,0), search for the `1` by DFS
     static int[][] map = new int[][]{
             {0, 0, 0, 0},
             {0, 0, 0, 0},
