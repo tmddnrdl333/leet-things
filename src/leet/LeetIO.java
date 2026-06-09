@@ -260,13 +260,7 @@ public class LeetIO {
 
     public List<Integer> nextIntList() {
         Parser p = new Parser(scanner.nextLine());
-        p.expect('[');
-        List<Integer> list = new ArrayList<>();
-        if (!p.eat(']')) {
-            do { list.add(p.parseInt()); } while (p.eat(','));
-            p.expect(']');
-        }
-        return list;
+        return parseNullableIntList(p);
     }
 
     public List<Long> nextLongList() {
