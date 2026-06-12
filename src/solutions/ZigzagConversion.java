@@ -2,21 +2,7 @@ package solutions;
 
 import leet.LeetIO;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ZigzagConversion {
-
-    // first row
-    // numRows = 2 : 1,3,5,7,...
-    // numRows = 3 : 1,5,9,13,...
-    // numRows = 4 : 1,7,13,...
-    // numRows = n : 1, 1 + 1*(2n-2), ... , 1 + k*(2n-2), ...
-
-    // second row
-    // numRows = 2 : 2,4,6,8,...
-    // numRows = 3 : 2,4,6,8,...
-    // numRows = 4 :
 
     public String convert(String s, int numRows) {
         if (numRows == 1) return s;
